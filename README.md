@@ -1,7 +1,7 @@
 # IAM
 # EX - 6 Implementation Of Identity Management (Amazon Iam) For Your Team.
-# NAME: D DEVIKA
-# REG NO: 212224100010
+# NAME: NARESH S
+# REG NO: 212224240101
 ## Aim
 
 To implement Identity and Access Management (IAM) in AWS to securely control access to resources by creating and managing IAM users, groups, roles, and policies for team collaboration.
