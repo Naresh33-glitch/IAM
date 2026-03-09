@@ -1,5 +1,7 @@
-# Implementation Of Identity Management (Amazon Iam) For Your Team.
-
+# IAM
+# EX - 6 Implementation Of Identity Management (Amazon Iam) For Your Team.
+# NAME: D DEVIKA
+# REG NO: 212224100010
 ## Aim
 
 To implement Identity and Access Management (IAM) in AWS to securely control access to resources by creating and managing IAM users, groups, roles, and policies for team collaboration.
@@ -60,27 +62,20 @@ To implement Identity and Access Management (IAM) in AWS to securely control acc
 - Use **AWS CloudTrail** to audit actions and access logs
 
 
-## Sample Output
-
-| Entity Type | Name            | Permissions Attached        | MFA Enabled | Assigned Group |
-|-------------|------------------|-----------------------------|-------------|----------------|
-| Group       | Admins           | `AdministratorAccess`       | -           | -              |
-| Group       | Developers       | `AmazonEC2FullAccess`       | -           | -              |
-| User        | alice_dev        | Inherits from Developers    | Yes         | Developers     |
-| User        | bob_admin        | Inherits from Admins        | Yes         | Admins         |
-| Role        | EC2-S3-Access    | `AmazonS3ReadOnlyAccess`    | N/A         | -              |
+## Scenario
+<img width="503" height="172" alt="Screenshot 2025-11-15 at 11 03 27 AM" src="https://github.com/user-attachments/assets/dccf8d4c-4a2d-4892-901a-b1f869a89bef" />
 
 
 
-## Outcome
 
-- IAM users `alice_dev` and `bob_admin` were created and assigned to the appropriate groups.
-- Groups `Admins` and `Developers` were configured with managed policies.
-- MFA was enabled for all users.
-- An IAM role `EC2-S3-Access` was created for EC2 instances to access S3 in a read-only mode.
+
+## Output
+<img width="1892" height="1165" alt="Screenshot 2025-11-15 at 11 07 54 AM" src="https://github.com/user-attachments/assets/912b2ea7-cdd9-43f6-86bc-bdad7e4dee12" />
+<img width="1892" height="1165" alt="Screenshot 2025-11-15 at 11 07 50 AM" src="https://github.com/user-attachments/assets/af548b67-0b3b-43db-8114-872d393edd70" />
+
+
 
 
 ## Result
 
 Successfully implemented identity and access management using **Amazon IAM**, enabling secure, role-based access control and ensuring team collaboration with best security practices.
-
